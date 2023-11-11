@@ -227,13 +227,14 @@ line-height: 30px;
 header{
     margin-bottom:130px;
  }
- .secf h3{
-    font-weight: 300:
-    }
  .secf{
     display: flex;
  }
- .about-info{
+ ..secf h3{
+    font-weight: 300 !important:
+    }
+    
+.about-info{
     margin: 30px 50px 131px 179px;
     color: var(--Dark-03, #757575);
     text-align: center;
