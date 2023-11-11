@@ -1,10 +1,49 @@
+/* ----- all common css start -----  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* ----- all common css end ----- */
 nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
     /* padding: 50px 230px 0px 226px; */
     /* justify-content: space-around; */
-    margin: 51px 230px 0px 226px;
+    margin: 0px 230px 0px 226px;
 }
 /* nav > ul{ */
     /* margin: 0px 1253px 0px 226px;  */
@@ -21,7 +60,7 @@ font-weight: 800;
 }  
 .Mary{
 color: var(--Dark-01, #181818);
-/* padding: 51px 0px 0px 226px ;     */
+padding: 51px 0px 0px 0px ;    
 /* padding-right: 633px; */
 font-size: 45px;
 font-style: normal;
@@ -42,7 +81,7 @@ nav  li{
 }
 nav a{
    text-decoration: none;
-   /* padding:0px 51px 47px 0px  ; */
+   /* padding:68px 230px 66px 0px  ; */
    /* color:  #474747; */
    color: var(--Dark-02, #474747);
 /* font-family: Open Sans; */
@@ -67,12 +106,15 @@ line-height: normal;
 
 .header{
  background: #FFF8F3;
+ background-image: url('../images/header_bg.png');
+ background-repeat: no-repeat;
+ background-position: bottom right;
 /* width: 1600px; */
 /* height: 837px; */
 /* flex-shrink: 0; */
 }
 .hi{
-    /* padding: 297px 1193px 5px 230px; */
+    padding: 185px 571px 5px 0px;
     color: var(--Dark-02, #474747);
 /* font-family: Open Sans; */
 font-size: 45px;
@@ -81,7 +123,8 @@ font-weight: 600;
 /* line-height: normal; */
 }
 .banner-title{
-    /* padding: 05px 872px 20px 230px; */
+    /* margin: 05px 250px 20px 0px; */
+    padding: 30px 0px;
     color: var(--Dark-01, #181818);
 /* font-family: Open Sans; */
 font-size: 85px;
@@ -91,7 +134,7 @@ font-weight: 700;
 
 }
 .definition{
-    /* padding: 20px 785px 30px 230px; */
+    padding: 20px 163px 30px 0px;
     color: var(--Dark-03, #757575);
 /* font-family: Open Sans; */
 font-size: 18px;
@@ -109,6 +152,7 @@ line-height: 30px;
 width: 584px;
 height: 676px;
 flex-shrink: 0;
+padding: 47px 38px 0px 163px;
 }
 .btn2{
     /* margin:0px 30px 184px 230px ; */
@@ -126,7 +170,7 @@ font-weight: 700;
 line-height: normal;
 }
 .btn3{
-    /* margin:0px 30px 184px 0px ; */
+    margin-left: 30px;
     width: 160px;
 height: 64px;
 flex-shrink: 0;
