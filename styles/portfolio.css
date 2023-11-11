@@ -330,12 +330,13 @@ line-height: 30px;
 #skills{
     display: flex;
     justify-content: space-between;
+    margin-right: 230px;
 }
 .pho1{
     margin: 30px 193px 30px 30px;
 }
 .skione{
-margin:  50px 24px 130px 24px;
+margin:  50px 24px 130px 230px;
 width: 267px;
 /* height: 377px; */
 flex-shrink: 0;
