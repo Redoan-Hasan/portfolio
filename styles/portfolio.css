@@ -2,9 +2,9 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 230px 0px 226px;
+    /* padding: 50px 230px 0px 226px; */
     /* justify-content: space-around; */
-    /* margin: 0px 1253px 0px 226px; */
+    margin: 51px 230px 0px 226px;
 }
 /* nav > ul{ */
     /* margin: 0px 1253px 0px 226px;  */
@@ -17,15 +17,16 @@ font-family: Open Sans;
 font-size: 45px;
 font-style: normal;
 font-weight: 800;
-line-height: normal;
+/* line-height: normal; */
 }  
 .Mary{
 color: var(--Dark-01, #181818);
-/* padding: 0px 0px 0px 226px ;     */
+/* padding: 51px 0px 0px 226px ;     */
+/* padding-right: 633px; */
 font-size: 45px;
 font-style: normal;
 font-weight: 800;
-line-height: normal;
+/* line-height: normal; */
 }
 .primary{
     color: #FD6E0A;
@@ -37,11 +38,11 @@ nav > ul{
 nav  li{
     /* text-decoration: none; */
     list-style: none;
-    margin-left: 51px;
+    margin-right:51px ;
 }
 nav a{
    text-decoration: none;
-   /* margin:68px 230px 0px 0px  ; */
+   /* padding:0px 51px 47px 0px  ; */
    /* color:  #474747; */
    color: var(--Dark-02, #474747);
 /* font-family: Open Sans; */
@@ -51,8 +52,7 @@ font-weight: 400;
 line-height: normal;
 }
 .btn1{
-    margin-right: 265px;
-    /* margin: 68px 265px 742px 1256px; */
+    padding: 18px 35px 19px 36px;
     width: 150px;
     height: 64px;
     flex-shrink: 0;
@@ -99,6 +99,17 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px; 
 }
+.banner{
+    display: flex;
+    padding: 47px 30px 0px 230px;
+    align-items: center;
+}
+.photo{
+    /* margin: 161px 38px 0px 0px; */
+width: 584px;
+height: 676px;
+flex-shrink: 0;
+}
 .btn2{
     /* margin:0px 30px 184px 230px ; */
     width: 200px;
@@ -128,15 +139,4 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-}
-.banner{
-    display: flex;
-    padding: 161px 38px 0px 230px;
-    align-items: center;
-}
-.photo{
-    margin: 161px 38px 0px 0px;
-    width: 584px;
-height: 676px;
-flex-shrink: 0;
 }
