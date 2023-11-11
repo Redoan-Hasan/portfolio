@@ -2,6 +2,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    padding: 50px 230px 0px 226px;
     /* justify-content: space-around; */
     /* margin: 0px 1253px 0px 226px; */
 }
@@ -20,7 +21,8 @@ line-height: normal;
 }  
 .Mary{
 color: var(--Dark-01, #181818);
-padding: 51px 0px 0px 226px ;    font-size: 45px;
+/* padding: 0px 0px 0px 226px ;     */
+font-size: 45px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -39,6 +41,7 @@ nav  li{
 }
 nav a{
    text-decoration: none;
+   /* margin:68px 230px 0px 0px  ; */
    /* color:  #474747; */
    color: var(--Dark-02, #474747);
 /* font-family: Open Sans; */
@@ -69,7 +72,7 @@ line-height: normal;
 /* flex-shrink: 0; */
 }
 .hi{
-    padding: 297px 1193px 5px 230px;
+    /* padding: 297px 1193px 5px 230px; */
     color: var(--Dark-02, #474747);
 /* font-family: Open Sans; */
 font-size: 45px;
@@ -78,7 +81,7 @@ font-weight: 600;
 /* line-height: normal; */
 }
 .banner-title{
-    padding: 05px 872px 20px 230px;
+    /* padding: 05px 872px 20px 230px; */
     color: var(--Dark-01, #181818);
 /* font-family: Open Sans; */
 font-size: 85px;
@@ -88,11 +91,52 @@ font-weight: 700;
 
 }
 .definition{
-    padding: 20px 785px 30px 230px;
+    /* padding: 20px 785px 30px 230px; */
     color: var(--Dark-03, #757575);
 /* font-family: Open Sans; */
 font-size: 18px;
 /* font-style: normal; */
 font-weight: 400;
 line-height: 30px; 
+}
+.btn2{
+    /* margin:0px 30px 184px 230px ; */
+    width: 200px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FD6E0A;
+color: var(--White-Color, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btn3{
+    /* margin:0px 30px 184px 0px ; */
+    width: 160px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #FD6E0A;
+color: #FD6E0A;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.banner{
+    display: flex;
+    padding: 161px 38px 0px 230px;
+    align-items: center;
+}
+.photo{
+    margin: 161px 38px 0px 0px;
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
 }
