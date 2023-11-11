@@ -229,6 +229,7 @@ header{
  }
  .secf{
     display: flex;
+    text-align: center;
  }
  .secf h3{
     font-weight: 300;
@@ -306,3 +307,159 @@ header{
     font-weight: 700;
     line-height: 30px;   
 }
+.setit{
+    margin: 130px 716px 30px 717px;
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;   
+}
+.secdif{
+margin: 0px 346px 50px 345px;
+color: var(--Dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+#skills{
+    display: flex;
+    justify-content: space-between;
+}
+.pho1{
+    margin: 30px 193px 30px 30px;
+}
+.skione{
+margin:  50px 24px 130px 230px;
+width: 267px;
+/* height: 377px; */
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skitit{
+margin: 0px 63px 20px 30px;
+color: var(--Dark-01, #181818);
+text-align: center;
+/* display: flex; */
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.skidef {
+margin:0px 33px 30px 33px;
+width: 201px;
+color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+/* .pho2{
+    margin: 30px 190.07px 30px 27px;
+    }
+.skitwo{
+margin: 50px 24px 130px 0px;
+width: 267px;
+height: 377px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skitit2{
+margin: 30px 180px 20px 30px;
+color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.skidef2{
+margin: 0px 33px 30px 33px;
+width: 201px;
+color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+.pho3{
+ margin: 30px 197px 30px 30px;   
+}
+.skithree{
+    margin: 50px 24px 130px 0px;
+    width: 267px;
+height: 377px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skitit3{
+margin: 30px 159px 20px 33px;
+color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.skidef3{
+margin: 0PX 33PX 30PX 33PX;
+width: 201px;
+color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+} */
+/* .skifour{
+margin: 50px 24px 130px 230px;
+width: 267px;
+height: 377px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFF;
+
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+} */
+/* .pho4{
+margin: 32px 190px 28px 33px;
+
+}
+/* .skitit4{ */
+/* margin: 0px 140px 20px 30px;
+color: var(--Dark-01, #181818);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} */
+/* .skidef4{ */
+/* margin: 0px 33px 30px 33px;
+width: 201px;
+color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+} */ */
