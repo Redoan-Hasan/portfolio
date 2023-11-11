@@ -184,3 +184,42 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.main{
+text-align: center;
+margin: 0 auto;
+/* margin: 130px 230px 130px 230px; */
+/* margin: 130px 0px ; */
+width: 1140px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #FFF8F3;
+}
+.sechead{
+/* margin: 131px 486px 30px 485px;  */
+/* width: 169px; */
+height: 48px;
+/* margin: auto; */
+/* (margin and padding are basically same here) */
+/* display: inline-block; */
+color: var(--Dark-01, #181818);
+text-align: center ;
+/* font-family: Open Sans; */
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.secbody{
+padding: 0px 157px 30px 156px;
+color: var(--Dark-03, #757575);
+/* text-align: center; */
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+header{
+    margin-bottom:130px;
+ }
