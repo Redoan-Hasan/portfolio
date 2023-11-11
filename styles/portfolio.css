@@ -184,7 +184,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.main{
+/* .main */
+#about{
+    margin-bottom: 130px;
+}
+.mardiv{
 text-align: center;
 margin: 0 auto;
 /* margin: 130px 230px 130px 230px; */
@@ -223,3 +227,81 @@ line-height: 30px;
 header{
     margin-bottom:130px;
  }
+ .secf h3{
+    font-weight: 300:
+    }
+ .secf{
+    display: flex;
+ }
+ .about-info{
+    margin: 30px 50px 131px 179px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+ }
+.ap{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+.about-email{
+    margin: 30px 50px 131px 0px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;   
+}
+.ap2{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;    
+}
+.about-dob{
+    margin: 30px 50px 131px 0px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;   
+}
+.ap3{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;   
+}
+.about-from{
+    margin: 30px 0% 131px 0px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;   
+}
+.ap4{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;   
+}
