@@ -230,7 +230,7 @@ header{
  .secf{
     display: flex;
  }
- secf h3{
+ .secf h3{
     font-weight: 300;
     }
     
