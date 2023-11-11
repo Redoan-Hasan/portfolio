@@ -332,7 +332,7 @@ line-height: 30px;
     justify-content: space-between;
   width: 1140px;
   margin: 0 auto;
-  margin-right: 230px;
+  /* margin-right: 230px; */
 }
 .pho1{
     margin: 30px 193px 30px 30px;
