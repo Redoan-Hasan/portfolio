@@ -105,10 +105,13 @@ line-height: normal;
 }
 
 .header{
+   /* padding: 38px 67px 25px 23px; */
  background: #FFF8F3;
- background-image: url('../images/header_bg.png');
+ background-image: url('../images/header_bg.png'), url('../images/developer.png');
  background-repeat: no-repeat;
- background-position: bottom right;
+ background-position: bottom right, left;
+
+ /* padding-left: 23px; */
 /* width: 1600px; */
 /* height: 837px; */
 /* flex-shrink: 0; */
