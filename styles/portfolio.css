@@ -526,3 +526,18 @@ line-height: normal;
 .downloadcv{
     text-align: center;
 }
+.footcoltit{
+    color: var(--Dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footsec{
+    /* width: 1600px; */
+    height: 780px;
+    flex-shrink: 0;
+    background: #FFF8F3; 
+}
