@@ -483,13 +483,15 @@ line-height: normal;
 .rescoltit{
     /* text-align: left; */
     /* display: flex; */
-    margin: 113px 293px 0px 0px;
+    margin: 113px 280px 0px 0px;
     color: var(--Dark-02, #474747);
     font-family: Open Sans;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;  
+    line-height: normal; 
+    /* width: 203px; */
+    /* height: 41px; */
 }
 .resitemtit{
 margin-bottom: 10px;
