@@ -626,7 +626,7 @@ line-height: normal;
         }
         .btn1{
             margin-top: 20px;
-          margin-left: 100px;
+          margin-left: 50px;
         }
         #about{
             width: 100%;
@@ -663,6 +663,7 @@ line-height: normal;
             margin: 0px;
         }
         nav > ul {
+            /* width: 100%; */
             flex-direction: row;
             flex-wrap: wrap;
             /* flex: none; */
